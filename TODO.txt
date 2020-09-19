@@ -1,0 +1,74 @@
+NEXT...
+
+LOD = "Level of Detail"
+
+Import the plant texture
+	LOD 3 - 5
+		Billboard = lower quality, 
+		but more efficient
+	LOD 0 - 2
+		qlCc6_4K (higher quality than 
+		billboards)
+			- Albedo
+			- Normal
+			- Opacity
+			- Roughness
+			- Translucency
+
+Opacity
+	Correctly show the opaque shape of the plant
+
+Translucency 
+	Determine thickness of each leaf. 
+	Influence how much light can shine through.
+
+Create new Master Material
+	- "Master_Material_Foliage"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://youtu.be/ATX7kmET4zE?list=WL&t=928
