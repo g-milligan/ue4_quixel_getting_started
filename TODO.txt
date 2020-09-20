@@ -1,13 +1,38 @@
 Foliage can look nice with higher NormalStrength
 	Check it out while changing directional light
 
+LOD EXAMPLE:
 
+Level of Detail (LOD)
+	LOD 1 = High detail
+	LOD 5 = Low detail
 
+Demonstrate
+	Browse to asset for LOD 5 (Low Detail)
+	Show LOD 1 (High detail) asset 
 
+SETTING UP DYNAMIC LOD
 
+	LOD can adjust based on distance from camera.
+	
+	- Higher detail when camera is near.
+	- Lower detail when camera is far.
 
+Dynamic LOD setup
+	- Double click on LOD 1 mesh
+	- LOD Settings
+		- LOD Import
+			- Import LOD Level 1
+				- LOD 5
+	- Should see new material slot
+	- Zoom out, and see the mesh switch out
 
+Save Work
 
+Make sure the material also switches for LOD 1/5
+	- Duplicate Rock Material
+	- Swap out Normal map in the new rock material
+	- Assign correct materials to LODs
 
 
 
@@ -78,4 +103,11 @@ Foliage can look nice with higher NormalStrength
 
 
 
-https://youtu.be/ATX7kmET4zE?list=WL&t=1159
+
+
+
+
+
+
+https://youtu.be/ATX7kmET4zE?list=WL&t=1350
+https://youtu.be/ATX7kmET4zE?list=WL&t=1544
